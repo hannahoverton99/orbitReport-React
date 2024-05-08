@@ -1,4 +1,5 @@
-import satData from "./satData"
+import satData from "./satData";
+import './styling.css';
 
 const Table = ({ sat }) => {
   return (
@@ -6,14 +7,8 @@ const Table = ({ sat }) => {
         <thead>
             <tr>
                 <th>Name</th>
-            </tr>
-            <tr>
                 <th>Type of Satellite</th>
-            </tr>
-            <tr>
                 <th>Launch Date</th>
-            </tr>
-            <tr>
                 <th>Status</th>
             </tr>
         </thead>
